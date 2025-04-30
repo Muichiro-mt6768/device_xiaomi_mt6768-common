@@ -29,6 +29,10 @@ dalvik.vm.dex2oat-threads=4
 dalvik.vm.image-dex2oat-cpu-set=4,5,6,7
 dalvik.vm.image-dex2oat-threads=4
 
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
+
 # Display
 config.svi.path=/system/etc/SVIConfig.xml
 debug.svi.logs=1
@@ -36,6 +40,7 @@ debug.als.logs=1
 config.svi.xml=1
 config.svi.xml.print=1
 persist.sys.brightness.low.gamma=true
+
 
 # FM Radio
 persist.sys.radio.force_lte_ca=true
