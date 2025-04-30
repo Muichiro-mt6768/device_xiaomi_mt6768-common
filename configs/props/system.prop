@@ -41,6 +41,8 @@ config.svi.xml=1
 config.svi.xml.print=1
 persist.sys.brightness.low.gamma=true
 
+# Filesystem
+fs_mgr.overlayfs.prefer_cache_backing_storage=true
 
 # FM Radio
 persist.sys.radio.force_lte_ca=true
