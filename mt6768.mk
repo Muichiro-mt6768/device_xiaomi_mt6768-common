@@ -305,7 +305,12 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.lineage-libperfmgr
+    android.hardware.power-service.pixel-libperfmgr
+	
+# Enable adpf cpu hint session for SurfaceFlinger and HWUI
+ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+     debug.sf.enable_adpf_cpu_hint=true \
+     debug.hwui.use_hint_manager=true
 
 PRODUCT_PACKAGES += \
     libmtkperf_client_vendor \
@@ -412,7 +417,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     hardware/xiaomi \
     hardware/mediatek/libmtkperf_client \
-    hardware/lineage/interfaces/power-libperfmgr \
     vendor/fingerprint/opensource/interfaces \
     $(COMMON_PATH)
 
