@@ -123,7 +123,6 @@ TARGET_BOARD_PLATFORM := mt6768
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/configs/props/product.prop
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/configs/props/system.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/configs/props/vendor.prop
-TARGET_SYSTEM_PROP += $(COMMON_PATH)/configs/props/phoneinfo.prop
 
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
